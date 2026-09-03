@@ -349,8 +349,6 @@ if (-not $ScanOnly) {
     Write-Host ""
 }
 
-"profileContent = $jvmStr" | Out-File (Join-Path $scriptPath "JVM-PROFILE.txt") -Encoding UTF8
-
 $stepLines = @()
 $stepLines += "KruzOptimization v2.0 - JVM Profile"
 $stepLines += ""
