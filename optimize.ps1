@@ -270,7 +270,7 @@ soundVolume:0.0
 blockSoundVolume:0.0
 musicType:options
 autoConfigGUI:true
-"@@
+"@
 
     $optimizedOptions | Out-File $optionsFile -Encoding UTF8 -Force
     Write-Host "  Optimized options.txt" -ForegroundColor Green
